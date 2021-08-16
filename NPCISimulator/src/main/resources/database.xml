@@ -34,12 +34,12 @@
 <bean id="hikariConfig"
         class="com.zaxxer.hikari.HikariConfig">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-        <property name="jdbcUrl" value="jdbc:mysql://192.168.0.105:3306/indianbank?useSSL=false"/>
+        <property name="jdbcUrl" value="jdbc:mysql://mysql:3307/indianbank?useSSL=false"/>
         <property name="username">
-            <value>nseit</value>
+            <value>root</value>
         </property>
         <property name="password">
-            <value>Nseit@1234</value>
+            <value>root</value>
         </property>
         <property name="connectionTimeout"><value>20000</value></property>
         <property name="idleTimeout"><value>500000</value></property>
